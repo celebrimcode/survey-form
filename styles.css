@@ -3,6 +3,7 @@
 :root {
   --grain-grey: #d7cec7;
   --blackboard-grey: #565656;
+  --dark-blackboard-grey: #1a1a1a;
   --oxblood-red: #76323f;
   --tan-beige: #c09f80;
 }
@@ -15,6 +16,8 @@
 
 body {
   margin: 0 auto;
+  background-color: var(--dark-blackboard-grey);
+  color: var(--grain-grey);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
