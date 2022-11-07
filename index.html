@@ -10,51 +10,53 @@
     </head>
 
     <body>
-        <h1 id="title" class="header">Rats Survey Form</h1>
-        <p id="description" class="description">Help me understand your rat situation</p>
-        <form id="survey-form" class="form" method="post" action="#">
-            <fieldset class="fieldset user-info">
-                <label for="name">Give me your name, buddy: <input id="name" type="text" placeholder="Emilka"
-                        required></label>
-                <label for="email">Give me your email, pal: <input id="email" type="email" placeholder="rat@rats.org"
-                        required></label>
-                <label for="n-of-rats">Estimate the quantity of your rats, partner: <input id="n-of-rats" type="number"
-                        placeholder="2" min=0 max=100 required></label>
-            </fieldset>
-            <fieldset class="fieldset dropdown">
-                <label for="dropdown">What type of rat do you prefer?
-                    <select id="dropdown" name="dropdown">
-                        <option value="">(select one)</option>
-                        <option value="1">Red-eyed</option>
-                        <option value="2">Other-eyed</option>
-                        <option value="3">Both, come on</option>
-                    </select>
-                </label>
-            </fieldset>
-            <fieldset class="fieldset cuteness">
-                <p>Did you know that rats are cute?</p>
-                <label for="heck-yea"><input id="heck-yea" name="did-you-know" type="radio">Heck yea!</label>
-                <label for="now-i-do"><input id="now-i-do" name="did-you-know" type="radio">Now I do!</label>
-                <label for="cuteness"><textarea id="cuteness" name="cuteness" rows="5" cols="50"
-                        placeholder="Omg rats are cute as..."></textarea></label>
-            </fieldset>
-            <fieldset class="fieldset colors">
-                <p>What rat color is your favorite?</p>
-                <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
-                        value="black">Black</label>
-                <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
-                        value="white">White</label>
-                <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
-                        value="grey">Grey</label>
-                <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
-                        value="brown">Brown</label>
-                <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
-                        value="beige">Beige</label>
-                <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
-                        value="mixed">Mixed</label>
-            </fieldset>
-            <input type="submit" value="Submit" />
-        </form>
+        <div class="container">
+            <h1 id="title" class="header">Rats Survey Form</h1>
+            <p id="description" class="description">Help me understand your rat situation</p>
+            <form id="survey-form" class="form" method="post" action="#">
+                <fieldset class="fieldset user-info">
+                    <label for="name">Give me your name, buddy: <input id="name" type="text" placeholder="Emilka"
+                            required></label>
+                    <label for="email">Give me your email, pal: <input id="email" type="email"
+                            placeholder="rat@rats.org" required></label>
+                    <label for="n-of-rats">Estimate the quantity of your rats, partner: <input id="n-of-rats"
+                            type="number" placeholder="2" min=0 max=100 required></label>
+                </fieldset>
+                <fieldset class="fieldset dropdown">
+                    <label for="dropdown">What type of rat do you prefer?
+                        <select id="dropdown" name="dropdown">
+                            <option value="">(select one)</option>
+                            <option value="1">Red-eyed</option>
+                            <option value="2">Other-eyed</option>
+                            <option value="3">Both, come on</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset class="fieldset cuteness">
+                    <p>Did you know that rats are cute?</p>
+                    <label for="heck-yea"><input id="heck-yea" name="did-you-know" type="radio">Heck yea!</label>
+                    <label for="now-i-do"><input id="now-i-do" name="did-you-know" type="radio">Now I do!</label>
+                    <label for="cuteness"><textarea id="cuteness" name="cuteness" rows="5" cols="50"
+                            placeholder="Omg rats are cute as..."></textarea></label>
+                </fieldset>
+                <fieldset class="fieldset colors">
+                    <p>What rat color is your favorite?</p>
+                    <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
+                            value="black">Black</label>
+                    <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
+                            value="white">White</label>
+                    <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
+                            value="grey">Grey</label>
+                    <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
+                            value="brown">Brown</label>
+                    <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
+                            value="beige">Beige</label>
+                    <label for="preference" name="preference"><input id="preference" name="preference" type="checkbox"
+                            value="mixed">Mixed</label>
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
     </body>
 
 </html>
