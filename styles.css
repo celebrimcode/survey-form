@@ -32,3 +32,13 @@ body {
   font-style: italic;
   text-align: center;
 }
+
+.form {
+  margin: 2rem 5%;
+}
+
+.fieldset {
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 3px solid var(--grain-grey);
+}
