@@ -84,3 +84,25 @@ fieldset {
   opacity: 0.6;
   color: var(--onyx);
 }
+
+.survey-form__cuteness-info {
+  border: none;
+  border-bottom: 5px solid var(--boy-red);
+  padding: 2rem 0;
+}
+
+.survey-form__textarea {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: papayawhip;
+  border-radius: 5px;
+  color: var(--onyx);
+  padding: 0.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.survey-form__textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  opacity: 0.6;
+}
