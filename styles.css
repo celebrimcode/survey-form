@@ -59,6 +59,7 @@ fieldset {
 
 .survey-form__user-info {
   border: none;
+  border-bottom: 5px solid var(--boy-red);
   padding: 2rem 0;
 }
 
@@ -68,8 +69,18 @@ fieldset {
 }
 
 .survey-form__input {
+  width: 100%;
+  min-height: 2rem;
   margin: 1rem 0 0 0;
   background-color: papayawhip;
   border: 1px solid papayawhip;
+  border-radius: 5px;
+  color: var(--onyx);
+  padding-left: 0.5rem;
+}
+
+.survey-form__input::placeholder {
+  font-style: italic;
+  opacity: 0.6;
   color: var(--onyx);
 }
