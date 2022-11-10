@@ -17,33 +17,37 @@
                 <form id="survey-form" class="survey-form__form" method="post" action="#">
                     <fieldset class="survey-form__user-info">
                         <!-- <div class="survey-form__text-inputs"> -->
-                        <label for="name" class="survey-form__label">Give me your name, buddy: <input id="name"
-                                class="survey-form__input" type="text" placeholder="Emilka" required></label>
-                        <label for="email" class="survey-form__label">Give me your email, pal: <input id="email"
-                                class="survey-form__input" type="email" placeholder="rat@rats.org" required></label>
-                        <label for="n-of-rats" class="survey-form__label">Estimate the quantity of your rats,
+                        <label id="name-label" for="name" class="survey-form__label">Give me your name, buddy: <input
+                                id="name" class="survey-form__input" type="text" placeholder="Emilka" required></label>
+                        <label id="email-label" for="email" class="survey-form__label">Give me your email, pal: <input
+                                id="email" class="survey-form__input" type="email" placeholder="rat@rats.org"
+                                required></label>
+                        <label id="number-label" for="n-of-rats" class="survey-form__label">Estimate the quantity of
+                            your rats,
                             partner:
-                            <input id="n-of-rats" class="survey-form__input" type="number"
+                            <input id="number" class="survey-form__input" type="number"
                                 placeholder="2 should be a minimum at all times" min=0 max=100 required></label>
                         <!-- </div> -->
                     </fieldset>
                     <fieldset class="survey-form__cuteness-info">
                         <p class="survey-form__paragraph">Did you know that rats are cute?</p>
                         <div class="survey-form__radio-buttons">
-                            <label for="heck-yea" class="survey-form__label"><input id="heck-yea"
-                                    class="survey-form__radio-button" name="did-you-know" type="radio"> Heck
+                            <label id="label" for="heck-yea" class="survey-form__label"><input id="heck-yea"
+                                    class="survey-form__radio-button" name="did-you-know" type="radio" value="yes"> Heck
                                 yea!</label>
-                            <label for="now-i-do" class="survey-form__label"><input id="now-i-do"
-                                    class="survey-form__radio-button" name="did-you-know" type="radio"> Now I
+                            <label id="label" for="now-i-do" class="survey-form__label"><input id="now-i-do"
+                                    class="survey-form__radio-button" name="did-you-know" type="radio" value="now-i-do">
+                                Now I
                                 do!</label>
                         </div>
-                        <label for="cuteness" class="survey-form__label">Please explain how cute rats are according
+                        <label id="label" for="cuteness" class="survey-form__label">Please explain how cute rats are
+                            according
                             to yourself: <textarea id="cuteness" class="survey-form__textarea" name="cuteness" rows="5"
                                 cols="50" placeholder="Omg rats are cute as..."></textarea></label>
                     </fieldset>
                     <fieldset class="survey-form__preference">
                         <div class="survey-form__dropdown-menu">
-                            <label for="dropdown" class="survey-form__label">What type of rat do you prefer?
+                            <label id="label" for="dropdown" class="survey-form__label">What type of rat do you prefer?
                                 <select id="dropdown" class="survey-form__dropdown" name="dropdown">
                                     <option value="">(select one)</option>
                                     <option value="1">Red-eyed</option>
@@ -54,31 +58,38 @@
                         </div>
                         <div class="survey-form__checkboxes">
                             <p class="survey-form__paragraph">What rat color is your favorite?</p>
-                            <label for="preference" name="preference" class="survey-form__label"><input id="preference"
-                                    class="survey-form__checkbox" name="preference" type="checkbox" value="black">
+                            <label id="label" for="preference" name="preference" class="survey-form__label"><input
+                                    id="preference" class="survey-form__checkbox" name="preference" type="checkbox"
+                                    value="black">
                                 Black</label>
-                            <label for="preference" name="preference" class="survey-form__label"><input id="preference"
-                                    class="survey-form__checkbox" name="preference" type="checkbox" value="white">
+                            <label id="label" for="preference" name="preference" class="survey-form__label"><input
+                                    id="preference" class="survey-form__checkbox" name="preference" type="checkbox"
+                                    value="white">
                                 White</label>
-                            <label for="preference" name="preference" class="survey-form__label"><input id="preference"
-                                    class="survey-form__checkbox" name="preference" type="checkbox" value="grey">
+                            <label id="label" for="preference" name="preference" class="survey-form__label"><input
+                                    id="preference" class="survey-form__checkbox" name="preference" type="checkbox"
+                                    value="grey">
                                 Grey</label>
-                            <label for="preference" name="preference" class="survey-form__label"><input id="preference"
-                                    class="survey-form__checkbox" name="preference" type="checkbox" value="brown">
+                            <label id="label" for="preference" name="preference" class="survey-form__label"><input
+                                    id="preference" class="survey-form__checkbox" name="preference" type="checkbox"
+                                    value="brown">
                                 Brown</label>
-                            <label for="preference" name="preference" class="survey-form__label"><input id="preference"
-                                    class="survey-form__checkbox" name="preference" type="checkbox" value="beige">
+                            <label id="label" for="preference" name="preference" class="survey-form__label"><input
+                                    id="preference" class="survey-form__checkbox" name="preference" type="checkbox"
+                                    value="beige">
                                 Beige</label>
-                            <label for="preference" name="preference" class="survey-form__label"><input id="preference"
-                                    class="survey-form__checkbox" name="preference" type="checkbox" value="mixed">
+                            <label id="label" for="preference" name="preference" class="survey-form__label"><input
+                                    id="preference" class="survey-form__checkbox" name="preference" type="checkbox"
+                                    value="mixed">
                                 Mixed</label>
-                            <label for="preference" name="preference" class="survey-form__label"><input id="preference"
-                                    class="survey-form__checkbox" name="preference" type="checkbox" value="all">
+                            <label id="label" for="preference" name="preference" class="survey-form__label"><input
+                                    id="preference" class="survey-form__checkbox" name="preference" type="checkbox"
+                                    value="all">
                                 All, of course</label>
                         </div>
                     </fieldset>
                     <!-- <div class="survey-form__submit-button"> -->
-                    <input class="survey-form__submit" type="submit" value="Submit" />
+                    <input id="submit" class="survey-form__submit" type="submit" value="Submit" />
                     <!-- </div> -->
                 </form>
             </div>
