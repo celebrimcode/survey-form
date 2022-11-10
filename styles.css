@@ -29,16 +29,21 @@ fieldset {
   width: 60%;
   max-width: 700px;
   min-width: 300px;
-  margin: 0 auto;
+  margin: 2rem auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1rem;
 }
 
 .survey-form__header {
+  margin: 1rem auto;
   font-size: 2.5rem;
   font-weight: 800;
   text-align: center;
 }
 
 .survey-form__description {
+  margin: 1rem auto;
   font-size: 1.2rem;
   font-weight: 300;
   font-style: italic;
@@ -56,4 +61,12 @@ fieldset {
 
 .survey-form__label {
   display: block;
+  margin: 1rem 0;
+}
+
+.survey-form__input {
+  margin: 1rem 0 0 0;
+  background-color: black;
+  border: 1px solid black;
+  color: #ffffff;
 }
